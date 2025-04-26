@@ -219,7 +219,7 @@
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
             pictureBox1.Location = new Point(-12, 12);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(812, 404);
+            pictureBox1.Size = new Size(812, 423);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 0;
             pictureBox1.TabStop = false;
@@ -246,7 +246,7 @@
             // 
             cadastrarToolStripMenuItem.Image = (Image)resources.GetObject("cadastrarToolStripMenuItem.Image");
             cadastrarToolStripMenuItem.Name = "cadastrarToolStripMenuItem";
-            cadastrarToolStripMenuItem.Size = new Size(180, 22);
+            cadastrarToolStripMenuItem.Size = new Size(124, 22);
             cadastrarToolStripMenuItem.Text = "Cadastrar";
             cadastrarToolStripMenuItem.Click += cadastrarToolStripMenuItem_Click;
             // 
@@ -254,14 +254,14 @@
             // 
             historicoToolStripMenuItem.Image = (Image)resources.GetObject("historicoToolStripMenuItem.Image");
             historicoToolStripMenuItem.Name = "historicoToolStripMenuItem";
-            historicoToolStripMenuItem.Size = new Size(180, 22);
+            historicoToolStripMenuItem.Size = new Size(124, 22);
             historicoToolStripMenuItem.Text = "Historico";
             // 
             // toolStripMenuItem10
             // 
             toolStripMenuItem10.Image = (Image)resources.GetObject("toolStripMenuItem10.Image");
             toolStripMenuItem10.Name = "toolStripMenuItem10";
-            toolStripMenuItem10.Size = new Size(180, 22);
+            toolStripMenuItem10.Size = new Size(124, 22);
             toolStripMenuItem10.Text = "Pedido";
             toolStripMenuItem10.Click += toolStripMenuItem10_Click;
             // 
@@ -323,6 +323,7 @@
             Controls.Add(groupBox2);
             Controls.Add(pictureBox1);
             FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "home";
             Text = " ";
             groupBox2.ResumeLayout(false);
