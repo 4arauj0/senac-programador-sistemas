@@ -54,6 +54,7 @@
             txt_status = new TextBox();
             txt_telefone = new TextBox();
             btn_cadastrar = new Button();
+            btn_fechar = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -326,25 +327,40 @@
             btn_cadastrar.BackColor = Color.Transparent;
             btn_cadastrar.BackgroundImage = (Image)resources.GetObject("btn_cadastrar.BackgroundImage");
             btn_cadastrar.FlatStyle = FlatStyle.Flat;
-            btn_cadastrar.Location = new Point(347, 405);
+            btn_cadastrar.Location = new Point(271, 405);
             btn_cadastrar.Name = "btn_cadastrar";
             btn_cadastrar.Size = new Size(75, 23);
             btn_cadastrar.TabIndex = 21;
             btn_cadastrar.Text = "cadastrar";
             btn_cadastrar.UseVisualStyleBackColor = false;
             // 
+            // btn_fechar
+            // 
+            btn_fechar.BackColor = Color.Transparent;
+            btn_fechar.BackgroundImage = (Image)resources.GetObject("btn_fechar.BackgroundImage");
+            btn_fechar.FlatStyle = FlatStyle.Flat;
+            btn_fechar.ForeColor = SystemColors.ActiveCaptionText;
+            btn_fechar.Location = new Point(418, 405);
+            btn_fechar.Name = "btn_fechar";
+            btn_fechar.Size = new Size(75, 23);
+            btn_fechar.TabIndex = 23;
+            btn_fechar.Text = "Fechar";
+            btn_fechar.UseVisualStyleBackColor = false;
+            btn_fechar.Click += button1_Click;
+            // 
             // cadastrar
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btn_fechar);
             Controls.Add(btn_cadastrar);
             Controls.Add(groupBox2);
             Controls.Add(lbl_cadastrar);
             Controls.Add(menuStrip2);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
-            FormBorderStyle = FormBorderStyle.FixedToolWindow;
+            FormBorderStyle = FormBorderStyle.None;
             Icon = (Icon)resources.GetObject("$this.Icon");
             Name = "cadastrar";
             Text = "cadastrar";
@@ -385,5 +401,6 @@
         private Label lbl_nome;
         private Label label15;
         private Button btn_cadastrar;
+        private Button btn_fechar;
     }
 }

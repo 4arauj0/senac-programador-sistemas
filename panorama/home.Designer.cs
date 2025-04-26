@@ -58,6 +58,7 @@
             cadastrarToolStripMenuItem1 = new ToolStripMenuItem();
             lbl_home = new Label();
             pictureBox2 = new PictureBox();
+            btn_fechar = new Button();
             groupBox2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             menuStrip2.SuspendLayout();
@@ -161,6 +162,7 @@
             // groupBox2
             // 
             groupBox2.BackgroundImage = (Image)resources.GetObject("groupBox2.BackgroundImage");
+            groupBox2.Controls.Add(btn_fechar);
             groupBox2.Controls.Add(btn_pedido);
             groupBox2.Controls.Add(btn_cadastrar);
             groupBox2.Controls.Add(lbl_sistemapedido);
@@ -312,6 +314,20 @@
             pictureBox2.TabIndex = 6;
             pictureBox2.TabStop = false;
             // 
+            // btn_fechar
+            // 
+            btn_fechar.BackColor = Color.Transparent;
+            btn_fechar.BackgroundImage = (Image)resources.GetObject("btn_fechar.BackgroundImage");
+            btn_fechar.FlatStyle = FlatStyle.Flat;
+            btn_fechar.ForeColor = SystemColors.ActiveCaptionText;
+            btn_fechar.Location = new Point(199, 176);
+            btn_fechar.Name = "btn_fechar";
+            btn_fechar.Size = new Size(75, 23);
+            btn_fechar.TabIndex = 24;
+            btn_fechar.Text = "Fechar";
+            btn_fechar.UseVisualStyleBackColor = false;
+            btn_fechar.Click += button2_Click;
+            // 
             // home
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -366,5 +382,6 @@
         private ToolStripMenuItem cadastrarToolStripMenuItem1;
         private Label lbl_home;
         private PictureBox pictureBox2;
+        private Button btn_fechar;
     }
 }

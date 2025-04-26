@@ -43,6 +43,30 @@ namespace costura
 
         private void pedido_Load(object sender, EventArgs e)
         {
+        }
+
+        private void btn_fechar(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btn_cadastrar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btn_fechar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
 
         }
     }
