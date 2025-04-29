@@ -17,6 +17,15 @@ namespace costura
             InitializeComponent();
         }
 
+        public pedido(string nome, string telefone, string preco, string status, string pagamento)
+        {
+            txt_nome.Text = nome;
+            txt_telefone = telefone;
+            txt_preco.Text = preco;
+            txt_entrega.Text = preco;
+            txt_status.Text = status;
+            txt_pagamento.Text = pagamento;
+        }
         private void cadastrarToolStripMenuItem_Click(object sender, EventArgs e)
         {
             cadastrar cadastrar = new cadastrar();
@@ -69,5 +78,7 @@ namespace costura
         {
 
         }
+
+   
     }
 }

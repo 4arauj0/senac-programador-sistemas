@@ -39,18 +39,18 @@
             cadastrarToolStripMenuItem1 = new ToolStripMenuItem();
             pictureBox2 = new PictureBox();
             groupBox1 = new GroupBox();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            txt_nome = new TextBox();
+            txt_preco = new TextBox();
+            txt_entrega = new TextBox();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
+            txt_pagamento = new TextBox();
+            txt_status = new TextBox();
+            txt_telefone = new TextBox();
             lbl_pedido = new Label();
             pictureBox1 = new PictureBox();
             button1 = new Button();
@@ -140,44 +140,44 @@
             // 
             groupBox1.BackgroundImage = (Image)resources.GetObject("groupBox1.BackgroundImage");
             groupBox1.BackgroundImageLayout = ImageLayout.None;
-            groupBox1.Controls.Add(textBox1);
-            groupBox1.Controls.Add(textBox2);
-            groupBox1.Controls.Add(textBox3);
+            groupBox1.Controls.Add(txt_nome);
+            groupBox1.Controls.Add(txt_preco);
+            groupBox1.Controls.Add(txt_entrega);
             groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(label2);
             groupBox1.Controls.Add(label3);
             groupBox1.Controls.Add(label4);
             groupBox1.Controls.Add(label5);
             groupBox1.Controls.Add(label6);
-            groupBox1.Controls.Add(textBox4);
-            groupBox1.Controls.Add(textBox5);
-            groupBox1.Controls.Add(textBox6);
+            groupBox1.Controls.Add(txt_pagamento);
+            groupBox1.Controls.Add(txt_status);
+            groupBox1.Controls.Add(txt_telefone);
             groupBox1.Location = new Point(275, 77);
             groupBox1.Name = "groupBox1";
             groupBox1.Size = new Size(222, 319);
             groupBox1.TabIndex = 25;
             groupBox1.TabStop = false;
             // 
-            // textBox1
+            // txt_nome
             // 
-            textBox1.Location = new Point(6, 34);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(210, 23);
-            textBox1.TabIndex = 20;
+            txt_nome.Location = new Point(6, 34);
+            txt_nome.Name = "txt_nome";
+            txt_nome.Size = new Size(210, 23);
+            txt_nome.TabIndex = 20;
             // 
-            // textBox2
+            // txt_preco
             // 
-            textBox2.Location = new Point(67, 134);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
-            textBox2.TabIndex = 19;
+            txt_preco.Location = new Point(67, 134);
+            txt_preco.Name = "txt_preco";
+            txt_preco.Size = new Size(100, 23);
+            txt_preco.TabIndex = 19;
             // 
-            // textBox3
+            // txt_entrega
             // 
-            textBox3.Location = new Point(61, 184);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 18;
+            txt_entrega.Location = new Point(61, 184);
+            txt_entrega.Name = "txt_entrega";
+            txt_entrega.Size = new Size(100, 23);
+            txt_entrega.TabIndex = 18;
             // 
             // label1
             // 
@@ -275,26 +275,26 @@
             label6.Text = "telefone";
             label6.UseMnemonic = false;
             // 
-            // textBox4
+            // txt_pagamento
             // 
-            textBox4.Location = new Point(62, 288);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(100, 23);
-            textBox4.TabIndex = 2;
+            txt_pagamento.Location = new Point(62, 288);
+            txt_pagamento.Name = "txt_pagamento";
+            txt_pagamento.Size = new Size(100, 23);
+            txt_pagamento.TabIndex = 2;
             // 
-            // textBox5
+            // txt_status
             // 
-            textBox5.Location = new Point(62, 236);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(100, 23);
-            textBox5.TabIndex = 1;
+            txt_status.Location = new Point(62, 236);
+            txt_status.Name = "txt_status";
+            txt_status.Size = new Size(100, 23);
+            txt_status.TabIndex = 1;
             // 
-            // textBox6
+            // txt_telefone
             // 
-            textBox6.Location = new Point(63, 84);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(100, 23);
-            textBox6.TabIndex = 0;
+            txt_telefone.Location = new Point(63, 84);
+            txt_telefone.Name = "txt_telefone";
+            txt_telefone.Size = new Size(100, 23);
+            txt_telefone.TabIndex = 0;
             // 
             // lbl_pedido
             // 
@@ -325,7 +325,7 @@
             // 
             button1.FlatStyle = FlatStyle.Flat;
             button1.Image = (Image)resources.GetObject("button1.Image");
-            button1.Location = new Point(345, 402);
+            button1.Location = new Point(697, 43);
             button1.Name = "button1";
             button1.Size = new Size(82, 22);
             button1.TabIndex = 21;
@@ -371,18 +371,18 @@
         private ToolStripMenuItem cadastrarToolStripMenuItem1;
         private PictureBox pictureBox2;
         private GroupBox groupBox1;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
+        private TextBox txt_nome;
+        private TextBox txt_preco;
+        private TextBox txt_entrega;
         private Label label1;
         private Label label2;
         private Label label3;
         private Label label4;
         private Label label5;
         private Label label6;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
+        private TextBox txt_pagamento;
+        private TextBox txt_status;
+        private TextBox txt_telefone;
         private Label lbl_pedido;
         private PictureBox pictureBox1;
         private Button button1;
